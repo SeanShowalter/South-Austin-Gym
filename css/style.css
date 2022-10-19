@@ -2,17 +2,18 @@
 
 /* || Global Vars */
 :root {
-    --brand-color-gold: #FFA91F;
-    --brand-color-blue: #427AA1;
-    --brand-color-black: #050404;
-    --brand-color-red: #8E1529;
-    --brand-color-white: #FCFFF7;
-    --site-font-one: 'Bebas Neue', 'Impact', sans-serif;
-    --site-font-two: 'Poppins', sans-serif;
-    --cta-color: #EB4C05;
-    --main-bg-color: #C65062;
-    --main-heading-color: #BAD9A0;
+  --brand-color-gold: #FFA91F;
+  --brand-color-blue: #427AA1;
+  --brand-color-black: #050404;
+  --brand-color-red: #8E1529;
+  --brand-color-white: #FCFFF7;
+  --site-font-one: 'Bebas Neue', 'Impact', sans-serif;
+  --site-font-two: 'Poppins', sans-serif;
+  --cta-color: #EB4C05;
+  --main-bg-color: #C65062;
+  --main-heading-color: #BAD9A0;
 }
+
 /* || General Styles */
 
 body {
@@ -20,29 +21,47 @@ body {
   padding-top: 70px;
   background-color: #000;
 }
-p, ul {
-  font-size: .8rem;
+
+p,
+ul {
+  font-size: 1.25rem;
   color: var(--brand-color-white);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--site-font-one);
-/*line-height: 0.7em;*/
+  /*line-height: 0.7em;*/
 }
 
-a.nav-link:hover, a.nav-link:focus {
-  color:var(--brand-color-white);
+h1 {
+  font-size: 4.768rem;
+}
+
+h2 {
+  font-size: 3.052rem;
+}
+
+a.nav-link:hover,
+a.nav-link:focus {
+  color: var(--brand-color-white);
 }
 
 footer {
   font-size: 10px;
 }
+
 footer p {
   margin: 0;
   padding-bottom: 10px;
   font-size: 10px;
   line-height: 1.25em;
 }
+
 footer a {
   text-decoration: none;
   font-size: 10px;
@@ -52,6 +71,7 @@ em {
   font-weight: bold;
   color: rgba(0, 0, 0, .5);
 }
+
 /* || Typography */
 
 /* || Brand Colors */
@@ -59,15 +79,19 @@ em {
 .brand-gold {
   color: var(--brand-color-gold);
 }
+
 .brand-blue {
   color: var(--brand-color-blue);
 }
+
 .brand-black {
   color: var(--brand-color-black);
 }
+
 .brand-red {
   color: var(--brand-color-red);
 }
+
 .brand-white {
   color: var(--brand-color-white);
 }
@@ -79,15 +103,19 @@ em {
   color: var(--brand-color-white);
   border-color: var(--brand-color-white);
 }
+
 .btn-primary {
   background-color: var(--cta-color);
 }
+
 .btn-secondary {
   background-color: var(--brand-color-blue);
 }
+
 .btn-info {
   background-color: var(--brand-color-gold);
 }
+
 .btn-outline-primary {
   background-color: transparent;
   color: var(--brand-color-white);
@@ -98,19 +126,22 @@ em {
 .navbar {
   background-color: var(--brand-color-black);
 }
+
 .nav-link {
   color: var(--brand-color-blue);
   font-family: var(--site-font-one);
-    font-size: 1.25em;
+  font-size: 1.25em;
 }
 
 .dropdown-menu {
   background-color: var(--brand-color-black);
 }
+
 .dropdown-item {
   color: var(--brand-color-blue);
   font-family: var(--site-font-one);
 }
+
 .dropdown-divider {
   background-color: var(--brand-color-white);
 }
@@ -136,68 +167,52 @@ em {
 .masthead {
   background-size: cover;
   background-position: center;
-  min-height: 60vh;
+  min-height: 100vh;
   position: relative;
   color: #fff;
-  text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
 }
 
 .color-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(255,0,0,.2);
+  background-color: rgba(0, 0, 255, .2);
 }
 
-#hero h1 {
-  font-size: 4rem;
-} 
-@media (max-width: 768px) {
-  .masthead {
-    min-height: 30vh;
-  }
 
-  #hero h1 {
-    font-size: calc(1.525rem + 3.3vw);
-  }
 
-  .btn {
-    --bs-btn-padding-y: 0.25rem;
-    --bs-btn-padding-x: 0.5rem;
-    --bs-btn-font-size: 0.875rem;
-    --bs-btn-border-radius: 0.25rem;
-}
-  }
-  
-}
+
 
 .home-img {
-    
-        background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/heroHome.jpg");
-    background-position: center center;
-    
-}   
+
+  background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/heroHome.jpg");
+  background-position: center center;
+
+}
 
 
-  
+
 #hero h2 {
   text-shadow: 1px 1px #000;
 }
+
 #hero p {
   /* Added text shadow */
   text-shadow: 1px 1px rgba(0, 0, 0, .5);
 }
 
 #main {
-    background-color: #C65062;
+  background-color: #C65062;
 }
 
 #welcome {
   min-height: 100vh;
   background-color: #000;
 }
+
 .welcome-bg-img {
-    min-height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../img/chris-kendall-sJ6az6-T1u8-unsplash.jpg");
   background-position: center;
   background-size: cover;
@@ -208,24 +223,25 @@ em {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.75);
+  background-color: rgba(0, 0, 0, .75);
 }
 
 #welcome h1 {
   font-size: 145px;
 }
-#welcome h2 {
-  font-size: 60px;
-}
+
+
+
 #welcome h3 {
   font-size: 33px;
 }
+
 #welcome h4 {
   font-size: 34px;
 }
 
 #trailer {
-    height: clamp(100px, 100vh, 1200px);
+  height: clamp(100px, 100vh, 1200px);
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.9)), url("../../img/david-guliciuc-o2zrjlM5s5o-unsplash.jpg");
   background-position: center center;
   background-size: cover;
@@ -242,7 +258,7 @@ em {
 }
 
 #testimonials {
-  background-color:  var(--brand-color-white);
+  background-color: var(--brand-color-white);
 
 
 }
@@ -250,40 +266,50 @@ em {
 .list-unstyled {
   list-style: none;
 }
+
 .list-unstyled li {
   display: inline;
 }
+
 .icons {
   font-size: 1.25em;
   padding: 0 5px;
 }
+
 #contact {
   background-color: var(--brand-color-white);
   font-family: var(--site-font-one);
-    padding-top: 100px;
+  padding-top: 100px;
 }
+
 .hours {
   font-size: 1em;
 }
+
 .contact-info {
   color: #427AA1;
   font-family: 'Bebas Neue', 'Impact', sans-serif;
   font-size: 1em;
 }
+
 .contact-icon {
   font-size: 1em;
   padding-right: 5px;
 }
+
 .form-label {
   /*font-family: 'Bebas Neue', 'Impact', sans-serif;*/
 }
+
 .form-control {
   font-size: .75rem;
 }
+
 .footer-icon {
   font-size: 2em;
   padding-right: 5px;
 }
+
 .footer-link {
   font-family: 'Poppins', sans-serif;
   text-decoration: none;
@@ -293,84 +319,84 @@ em {
 /* About Page */
 
 .about-img {
-    /* Add image */
-        background-image: url("../img/desktopAbout.jpg");
-    background-position: right;
+  /* Add image */
+  background-image: url("../img/desktopAbout.jpg");
+  background-position: right;
 }
 
 h2.about {
-    font-size: 80px;
-    letter-spacing: normal;
+  font-size: 80px;
+  letter-spacing: normal;
 }
 
 h3.about {
-    color: #BAD9A0;
+  color: #BAD9A0;
 }
 
 ul.about {
-    color: var(--brand-color-white);
-    list-style-type: disc;
+  color: var(--brand-color-white);
+  list-style-type: disc;
 }
 
 li.about {
-    list-style: disc;
+  list-style: disc;
 }
 
 /* Boxing Page */
-.boxing-img { 
-    background-image: url("../img/desktopBoxing.jpg");
-    background-position: top right;
+.boxing-img {
+  background-image: url("../img/desktopBoxing.jpg");
+  background-position: top right;
 }
 
 /* Kickboxing Page */
-.kickboxing-img { 
-    background-image: url("../img/desktopKickboxing.jpg");
-    background-position: top right;
+.kickboxing-img {
+  background-image: url("../img/desktopKickboxing.jpg");
+  background-position: top right;
 }
 
 /* Jiu Jitsu Page */
 .jiu-jitsu-img {
-    background-image: url("../img/desktopJiuJitsu.jpg");
-    background-position: top right;
+  background-image: url("../img/desktopJiuJitsu.jpg");
+  background-position: top right;
 }
 
 /* Personal Training */
 .personal-training-img {
-    
-    background-image: url("../img/desktopPersonalTraining.jpg");
-    background-position: right;
+
+  background-image: url("../img/desktopPersonalTraining.jpg");
+  background-position: right;
 }
 
 /* Kickstart */
 .kickstart-img {
-    background-image: url("../img/desktopKickstart.jpg");
-    background-position: right;
+  background-image: url("../img/desktopKickstart.jpg");
+  background-position: right;
 }
 
 /* Schedule */
 .schedule-img {
-    background-image: url("../img/desktopSchedule.jpg");
-    background-position: right;
+  background-image: url("../img/desktopSchedule.jpg");
+  background-position: right;
 }
 
 /* Membership */
 .membership-img {
-    background-image: url("../img/desktopMembership.jpg");
-    background-position: left;
+  background-image: url("../img/desktopMembership.jpg");
+  background-position: left;
 }
 
 /* Events */
 .events-img {
-    background-image: url("../img/desktopEvents.jpg");
-    background-position: center;
+  background-image: url("../img/desktopEvents.jpg");
+  background-position: center;
 }
 
 /* Pro Shop */
 .shop-img {
-    background-image: url("../img/desktopShop.jpg");
-    background-position: right;
+  background-image: url("../img/desktopShop.jpg");
+  background-position: right;
 }
-/* Media Queries */
+
 
 /* Hero Images */
 
@@ -393,3 +419,58 @@ li.about {
     }
 }
 */
+
+
+/* Media Queries */
+@media (max-width: 1400px) {
+  .masthead {
+    min-height: 80vh;
+  }
+
+  
+
+}
+
+@media (max-width: 1200px) {
+  .masthead {
+    min-height: 70vh;
+  }
+
+  p, ul {
+    font-size: 1rem;
+  }
+
+
+}
+
+@media (max-width: 992px) {
+  .masthead {
+    min-height: 60vh;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .masthead {
+    min-height: 40vh;
+  }
+    h1 {
+      font-size: 3.815rem;
+    }
+
+    h2 {
+      font-size: 2.441rem;
+    }
+  }
+
+}
+
+
+
+@media (max-width: 576px) {
+  .masthead {
+    min-height: 30vh;
+  }
+
+ 
+}

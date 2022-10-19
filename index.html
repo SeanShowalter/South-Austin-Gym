@@ -1,301 +1,370 @@
 <!doctype html>
 <html lang="en-US" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="robots" content="noindex">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>South Austin Gym</title>
-    
-    <!-- Link for boostrap from: 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>South Austin Gym</title>
+
+  <!-- Link for boostrap from: 
     https://getbootstrap.com/docs/5.0/getting-started/introduction -->
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    
-    <!-- Font Awesome CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-      <!-- Bootstrap Javascript --> 
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
-</script>
-  </head>
-  
-  <body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
-    
-    <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
-    <header>
-      <div class="container-xxl">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar-spy">
-          <div class="container-xxl align-items-start"> 
-            <a href="index.html" target="_self" class="navbar-brand"><img src="img/southAustinGymLogo.svg" alt="South Austin Gym Logo" width="200"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Programs</a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
-                    <li><a class="dropdown-item" href="jiu-jitsu.html">Jui-Jitsu</a></li>
-                    <li><a class="dropdown-item" href="kickboxing.html">Kickboxing</a></li>
-                    <li><a class="dropdown-item" href="personal-training.html">Personal Training</a></li>
-                    <li><a class="dropdown-item" href="kickstart.html">$59 Kickstart</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="schedule.html">Schedule</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="membership.html">Membership</a></li>
-                <li class="nav-item"> <a class="nav-link" href="event.html">Events</a></li>
-                <li class="nav-item"> <a class="nav-link" href="shop.html">Shop</a></li>
-                <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom styles (these can extend bootstrap which is JUST CSS!) -->
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <!-- Bootstrap Javascript -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    </script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-spy" data-bs-offset="100">
+
+  <!-- PASTE NAVBAR CODE TO CUSTOMIZE -->
+  <header>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navbar-spy">
+      <div class="container-fluid align-items-start">
+        <a href="index.html" target="_self" class="navbar-brand"><img src="img/southAustinGymLogo.svg"
+            alt="South Austin Gym Logo" width="200"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#"
+                role="button" aria-expanded="false">Programs</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="boxing.html">Boxing</a></li>
+                <li><a class="dropdown-item" href="jiu-jitsu.html">Jui-Jitsu</a></li>
+                <li><a class="dropdown-item" href="kickboxing.html">Kickboxing</a></li>
+                <li><a class="dropdown-item" href="personal-training.html">Personal Training</a></li>
+                <li><a class="dropdown-item" href="kickstart.html">$59 Kickstart</a></li>
               </ul>
-            </div>
-          </div>
-        </nav>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="schedule.html">Schedule</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="membership.html">Membership</a></li>
+            <li class="nav-item"> <a class="nav-link" href="event.html">Events</a></li>
+            <li class="nav-item"> <a class="nav-link" href="shop.html">Shop</a></li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
       </div>
-    </header>
-    
+    </nav>
     <!-- Hero section -->
+    <section id="hero">
+      <div class="container-fluid masthead mb-5" style="background-image: url('./img/desktopHome.jpg');">
+        <div class="row color-overlay justify-content-center align-items-center">
 
-     <section id="hero">
-        <div class=" container-xxl masthead mb-5" style="background-image: url('./img/desktopHome.jpg');">
-          <div class="row color-overlay justify-content-center align-items-center">
-            <div class="col"></div>
-            <div class="col-10">
-              
-                <h1>Get South Austin Strong!</h1>
-                <p><a class="btn btn-primary" href="#" role="button">Get Started</a></p>
-                </div>
-                <div class="col"></div>
-            </div>
-
+          <div class="col-10 text-center">
+            <h1 class="brand-gold">South Austin Gym</h1>
+            <p class="fs-4">Ready to Kick Some Ass?</p>
+            <p><a class="btn btn-primary btn-sm" href="kickstart.html" role="button">Get Started</a></p>
           </div>
-          
-       
+        </div>
 
-     </section>
-    <section id="welcome">
-      <div class="container-xl">
-        <div class="row justify-content-center align-items-start pt-5 gy-3">
-          <div class="col-12 col-lg-6">
-            <img src="./img/homeMessage.svg" alt="We are south ausitn gym. Our business is building you up. Positivity. Confidence. Strength." class="img-fluid">
+
+      </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Main -->
+  <section id="welcome">
+    <div class="container-fluid">
+      <div class="row justify-content-center align-items-start gy-3">
+        <div class="col-12 col-md-6 col-xl-4">
+          <h2 class="brand-white">Get South Austin Strong</h2>
+          <p><img src="./img/pexels-pavel-danilyuk-6296016.jpg" alt="boxer" class="img-fluid"></p>
+          <p>South Austin Gym is the Best Place in Austin for learning Mixed Martial Arts. We offer classes
+            and <a href="./personal-training.html"> personal training</a>
+            in <a href="./boxing.html"> Boxing</a>, <a href="./kickboxing.html">Kickboxing</a>, and <a
+              href="./jiu-jitsu.html">Brazilian Jiu-Jitsu</a>. Our students
+            train to compete, learn self-defense, and for personal
+            fitness.</p>
           <div class="row">
             <div class="col justify-content-evenly align-items-start d-flex flex-wrap">
-              <a class="flex-fill btn btn-sm btn-outline-primary m-2" href="#" role="button">More About Us</a> 
-              <a class="flex-fill btn btn-sm btn-secondary m-2" href="#" role="button">Our Programs</a> 
-              <a class="flex-fill btn btn-sm btn-info m-2" href="#" role="button">Membership</a> 
-            </div>
-
-          </div>
-          
-          </div>
-          <div class=" col-12 col-lg-6">
-            <img src="./img/chris-kendall-sJ6az6-T1u8-unsplash.jpg" alt="boxer" class="img-fluid border">
-
-          </div>
-          <div class=" col-12">
-            <p class="fs-5">South Austin Gym is the Best Place in Austin for learning Mixed Martial Arts. We offer classes and personal training
-              in Boxing, Kickboxing, and Brazilian Jiu-Jitsu. Our students 
-              train to compete, learn self-defense, and for personal 
-              fitness. </p>
-            
-            <p class="fs-5">We are a no non-sense facility with an old school
-              vibe that likes to keep things simple. We don’t invest in 
-              expensive frills that don’t provide much fitness value. 
-              Instead we focus on providing top quality essentials. </p>
-            
-                <p class="fs-5">See what it’s like to transform your fitness with a program you’ll actually stick with. Get an introduction to the basics of boxing, kickboxing. or jiu-jitsu with the KICKSTART Program.</p>
-                <a class="btn btn-primary" href="#" role="button">$59 Kickstart</a>
-              </div>
-              
+              <a class="flex-fill btn btn-sm btn-secondary m-2" href="boxing.html" role="button">Boxing</a>
+              <a class="flex-fill btn btn-sm btn-secondary m-2" href="kickboxing.html" role="button">Kickboxing</a>
+              <a class="flex-fill btn btn-sm btn-secondary m-2" href="jiu-jitsu.html" role="button">Jiu-Jitsu</a>
             </div>
           </div>
-         
-            
-    </section>
-    <!--
-    <section id="trailer">
-      <div class="container-xl">
-        <div class="row justify-content-center align-items-start">
-          <div class="col-12">
-            <h2 class="display-3 brand-gold">south austin gym trailer</h2>
-          </div>
-          <div class="col-12"> </div>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/FYFN0CwtY-0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-      </div>
-    </section>
-    <section id="personal-message">
-      <div class="container text-left">
-        <div class="row justify-content-end align-items-start">
-          <div class="col-7 col-sm-9 col-lg-10  p-5">
-            <h2 class="display-5 brand-white">A Personal message from the owner</h2>
-              <div class="text-left bg-dark bg-opacity-25 p-2">
-            <p>Kickboxing is one of the most exciting and effective ways to get fit, and we have the best kickboxing program in Austin. My mission as your instructor is to provide you with a safe and entertaining program where you can learn at your own pace.</p>
-              
-              <p >I promise you results beyond your expectations. Kickboxing, boxing and martial arts will give you better balance, coordination, stamina, flexibility and strength. You’ll feel healthier and stronger than ever before. Come by South Austin Gym today to learn more about our programs and fitness center. I look forward to seeing you!</p>
-              
-              
-              <p>Yours in Fitness,</p>
-              
-              <p>Randy Palmer</p>
-             <p>Owner of South Austin Gym, Head Instructor, Professional Kickboxer and Former World Champion</p></div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+          <h2 class="brand-white">south austin gym trailer</h2>
+          <div class="ratio ratio-4x3">
+            <iframe src="https://www.youtube.com/embed/FYFN0CwtY-0" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <p>Tour our facility, see what our classes are like, and listen to what others think about our gym during this
+            trailer of
+            South Austin Gym! Randy Palmer, the owner, is your guide. </p>
+          <div class="col">
+            <a class="btn btn-sm btn-warning m-2" href="membership.html" role="button">Membership</a>
           </div>
         </div>
+
+        <div class="col-12 col-md-6 col-xl-4">
+          <h2 class="brand-white">We're Old School</h2>
+          <p><img src="./img/pexels-pavel-danilyuk-6296123.jpg" alt="boxer" class="img-fluid"></p>
+          <p>We are a no non-sense facility with an old school
+            vibe that likes to keep things simple. We don’t invest in
+            expensive frills that don’t provide much fitness value.
+            Instead we focus on providing top quality essentials. </p>
+          <div class="col">
+            <a class="btn btn-sm btn-outline-primary m-2" href="about.html" role="button">More About Us</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-4">
+          <h2 class="brand-white">Transform Your Life</h2>
+          <p><img src="./img/transformYourLife.jpg" alt="boxer" class="img-fluid"></p>
+          <p>See what it’s like to transform your fitness with a program you’ll actually stick with. Get an
+            introduction to the basics of boxing, kickboxing. or jiu-jitsu with the <a
+              href="kicktart.html">KICKSTART</a> Program.</p>
+          <div class="col">
+            <a class="btn btn-sm btn-danger m-2" href="kickstart.html" role="button">$59 Kickstart</a>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-8 col-lg-10 col-xl-6">
+          <h2 class="brand-white">From the Owner</h2>
+          <p>Kickboxing is one of the most exciting and effective ways to get fit, and we have the best kickboxing
+            program in Austin. My mission as your instructor is to provide you with a safe and entertaining program
+            where you can learn at your own pace.</p>
+          <p>I promise you results beyond your expectations. Kickboxing, boxing and martial arts will give you better
+            balance, coordination, stamina, flexibility and strength. You’ll feel healthier and stronger than ever
+            before. Come by South Austin Gym today to learn more about our programs and fitness center. I look forward
+            to seeing you!</p>
+          <p>Yours in Fitness,</p>
+          <p>Randy Palmer</p>
+        </div>
+        <div class="col-6 col-sm-4 col-lg-2 col-xl-2">
+          <p><img src="./img/randy.jpg" alt="boxer" class="img-fluid"></p>
+        </div>
+
+
+        <div class="col-12">
+          <h2 class="brand-white">Testimonials</h2>
+        </div>
+        <div class="col-12 col-md-8 col-xl-6 d-flex justify-content-center">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active"> <img src="img/Testimonial4.jpg" class="d-block w-100"
+                  alt="Photo of MLK with quote">
+                <div class="carousel-caption">
+                  <p class="fs-6 bg-dark bg-opacity-25 p-1 text-start">Randy is the man! Runs an awesome gym,
+                    consistently brings in world champions for seminars and is one of the 1st places in the US, let
+                    alone Texas, that you can train in Lethwei and be certified in the art of 9 limbs!</p>
+                  <p>-David</p>
+                </div>
+              </div>
+              <div class="carousel-item"> <img src="img/Testimonial1.jpg" class="d-block w-100" alt="Steve Jobs quote">
+                <div class="carousel-caption">
+                  <p class="bg-dark bg-opacity-25 p-1 text-start">Love this place! I work out with Randy on a bi-weekly
+                    basis he always gives me a great work out, keeps it interesting and keeps me engaged. You can tell
+                    he takes pride in his work, and enjoys what he does. His enthusiasm is contagious. I have been going
+                    here for months and highly recommend trying this place out!</p>
+                  <p>-Tyler</p>
+                </div>
+              </div>
+              <div class="carousel-item"><img src="img/Testimonial2.jpg" class="d-block w-100"
+                  alt="Thomas Jefferson and quote">
+                <div class="carousel-caption">
+                  <p class="bg-dark bg-opacity-25 p-1 text-start">This place is amazing! If you are looking to take your
+                    life to the next level, whatever that means for you, this is a great place to do it. It has been
+                    transformational for me in a very short time. Thank you to the entire staff for being supportive and
+                    friendly.</p>
+                  <p class="">-Stephanie</p>
+                </div>
+              </div>
+              <div class="carousel-item"> <img src="img/Testimonial3.jpg" class="d-block w-100"
+                  alt="Thomas Jefferson and quote">
+                <div class="carousel-caption">
+                  <p class="bg-dark bg-opacity-25 p-1 text-start">I was told that joining a gym is like joining a
+                    community. This is absolutely true about South Austin Gym. Randy and crew are awesome and always
+                    checking in with my progress. Accountability is one of their 3 pillars, and is something I need to
+                    help me along my journey. I can’t say enough good things about this place!</p>
+                  <p class="">-Eros</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                class="visually-hidden">Previous</span> </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span
+                class="visually-hidden">Next</span> </button>
+          </div>
+
+        </div>
+    
+      <div class="col-2 col-md-4"></div>
+      <div class="col-8 col-md-6">
+        <p><img src="./img/homeMessage.svg"
+            alt="We are south ausitn gym. Our business is building you up. Positivity. Confidence. Strength."
+            class="img-fluid"></p>
       </div>
-    </section>
-    <section id="testimonials">
-        <div class="container p-0 m-0">
-      <div class="row">
-          <div class="col-12 p-5">
-              <h2 class="display-5">Testimonials</h2>
-          </div></div></div>
-            
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-              </div>
-              <div class="carousel-inner">
-                <div class="carousel-item active"> <img src="img/Testimonial4.jpg" class="d-block w-100" alt="Photo of MLK with quote">
-                  <div class="carousel-caption">
-                    <p class="bg-dark bg-opacity-25 p-1 text-start">Randy is the man! Runs an awesome gym, consistently brings in world champions for seminars and is one of the 1st places in the US, let alone Texas, that you can train in Lethwei and be certified in the art of 9 limbs!</p>
-                    <p>-David</p>
-                  </div>
-                </div>
-                <div class="carousel-item"> <img src="img/Testimonial1.jpg" class="d-block w-100" alt="Steve Jobs quote">
-                  <div class="carousel-caption">
-                    <p class="bg-dark bg-opacity-25 p-1 text-start">Love this place! I work out with Randy on a bi-weekly basis he always gives me a great work out, keeps it interesting and keeps me engaged. You can tell he takes pride in his work, and enjoys what he does. His enthusiasm is contagious. I have been going here for months and highly recommend trying this place out!</p>
-                    <p>-Tyler</p>
-                  </div>
-                </div>
-                <div class="carousel-item"><img src="img/Testimonial2.jpg" class="d-block w-100" alt="Thomas Jefferson and quote">
-                  <div class="carousel-caption">
-                    <p class="bg-dark bg-opacity-25 p-1 text-start">This place is amazing! If you are looking to take your life to the next level, whatever that means for you, this is a great place to do it. It has been transformational for me in a very short time. Thank you to the entire staff for being supportive and friendly.</p>
-                    <p class="">-Stephanie</p>
-                  </div>
-                </div>
-                <div class="carousel-item"> <img src="img/Testimonial3.jpg" class="d-block w-100" alt="Thomas Jefferson and quote">
-                  <div class="carousel-caption">
-                    <p class="bg-dark bg-opacity-25 p-1 text-start">I was told that joining a gym is like joining a community. This is absolutely true about South Austin Gym. Randy and crew are awesome and always checking in with my progress. Accountability is one of their 3 pillars, and is something I need to help me along my journey. I can’t say enough good things about this place!</p>
-                    <p class="">-Eros</p>
-                  </div>
-                </div>
-              </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span> </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="visually-hidden">Next</span> </button>
-                </div>
-       
-    </section>
-  
-    <section id="contact">
+      <div class="col-2 col-md-4"></div>
+
+    </div>
+    </div>
+
+
+  </section>
+
+
+
+  <section id="testimonials">
     <div class="container">
-    <div class="row justify-content-center align-items-start mb-5 g-5">
-    <div class="col-12 col-md-6 text-secondary">
-      <h2 class="display-3 text-dark">Ready To Start?</h2>
-      <form>
-        <div class="mb-3">
-          <label for="firstName" class="form-label mb-0">First Name:</label>
-          <input type="text" class="form-control" id="firstName">
-        </div>
-        <div class="mb-3">
-          <label for="lastName" class="form-label mb-0">Last Name:</label>
-          <input type="text" class="form-control" id="lastName">
-        </div>
-        <div class="mb-3">
-          <label for="emailAddress" class="form-label mb-0">Email address:</label>
-          <input type="email" class="form-control" id="emailAddress">
-        </div>
-        <div class="mb-3">
-          <label for="phoneNumber" class="form-label mb-0">Phone Number:</label>
-          <input type="tel" class="form-control" id="phoneNumber">
-        </div>
-        <div class="mb-3">
-          <label class="form-label" for="formMessage">Your Message:</label>
-          <textarea class="form-control" placeholder="Leave a comment here..." id="formMessage" style="height: 100px"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-    <div class="col-12 col-md-6">
-    <h2 class="display-3 brand-gold">Contact Us</h2>
-    <div class="row text-secondary justify-content-start">
-    <div class="col-5 col-md-7" >
-      <h3>Address</h3>
-      <div class="row row-cols-1 justify-content-start align-items-start">
-        <div class="col text-start text-secondary"> 5700 Manchaca Rd #365 <br>
-          Austin, TX 78745</div>
-        <div class="col"><i class="fa fa-phone-square brand-blue contact-icon"></i><span class="contact-info">(512) 445-2348</span></div>
-        <div class="col"><i class="fa fa-envelope-square brand-blue contact-icon"></i> <span class="contact-info">info@southaustingym.com</span></div>
-        <div class="col"><i class="fa fa-facebook-square brand-blue contact-icon"></i> <i class="fa fa-instagram brand-blue contact-icon"></i> <i class="fa fa-youtube-square brand-blue contact-icon"></i></div>
-      </div>
-    </div>
-    <div class="col-4 col-md-5 col-lg-4 text-end" >
-      <h3>Hours</h3>
-      <div class="col">
-        <div class="row row-cols-2 justify-content-end align-items-start">
-          <div class="col-auto text-end pe-0">
-            <p class="hours text-muted m-0"> Mon-Thur:<br>
-              Fri:<br>
-              Sat:<br>
-              Sun:</p>
-          </div>
-          <div class="col-auto text-start ps-0">
-            <p class="hours text-muted m-0">&nbsp;6am-9pm<br>
-              &nbsp;6am-6pm<br>
-              &nbsp;9am-5pm<br>
-              &nbsp;<span class="brand-gold">closed</span></p>
-          </div>
+      <div class="row">
+        <div class="col-10 p-5">
+          <h2 class="display-5">Testimonials</h2>
         </div>
       </div>
     </div>
-        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=5700%20Menchaca%20Rd%20Austin+(South%20Austin%20Gym)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
-        </div></div></div></div>
-    </section>
-  -->
+
+
+
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row justify-content-center align-items-start mb-5 g-5">
+        <div class="col-12 col-md-6 text-secondary">
+          <h2 class="display-3 text-dark">Ready To Start?</h2>
+          <form>
+            <div class="mb-3">
+              <label for="firstName" class="form-label mb-0">First Name:</label>
+              <input type="text" class="form-control" id="firstName">
+            </div>
+            <div class="mb-3">
+              <label for="lastName" class="form-label mb-0">Last Name:</label>
+              <input type="text" class="form-control" id="lastName">
+            </div>
+            <div class="mb-3">
+              <label for="emailAddress" class="form-label mb-0">Email address:</label>
+              <input type="email" class="form-control" id="emailAddress">
+            </div>
+            <div class="mb-3">
+              <label for="phoneNumber" class="form-label mb-0">Phone Number:</label>
+              <input type="tel" class="form-control" id="phoneNumber">
+            </div>
+            <div class="mb-3">
+              <label class="form-label" for="formMessage">Your Message:</label>
+              <textarea class="form-control" placeholder="Leave a comment here..." id="formMessage"
+                style="height: 100px"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-12 col-md-6">
+          <h2 class="display-3 brand-gold">Contact Us</h2>
+          <div class="row text-secondary justify-content-start">
+            <div class="col-5 col-md-7">
+              <h3>Address</h3>
+              <div class="row row-cols-1 justify-content-start align-items-start">
+                <div class="col text-start text-secondary"> 5700 Manchaca Rd #365 <br>
+                  Austin, TX 78745</div>
+                <div class="col"><i class="fa fa-phone-square brand-blue contact-icon"></i><span
+                    class="contact-info">(512) 445-2348</span></div>
+                <div class="col"><i class="fa fa-envelope-square brand-blue contact-icon"></i> <span
+                    class="contact-info">info@southaustingym.com</span></div>
+                <div class="col"><i class="fa fa-facebook-square brand-blue contact-icon"></i> <i
+                    class="fa fa-instagram brand-blue contact-icon"></i> <i
+                    class="fa fa-youtube-square brand-blue contact-icon"></i></div>
+              </div>
+            </div>
+            <div class="col-4 col-md-5 col-lg-4 text-end">
+              <h3>Hours</h3>
+              <div class="col">
+                <div class="row row-cols-2 justify-content-end align-items-start">
+                  <div class="col-auto text-end pe-0">
+                    <p class="hours text-muted m-0"> Mon-Thur:<br>
+                      Fri:<br>
+                      Sat:<br>
+                      Sun:</p>
+                  </div>
+                  <div class="col-auto text-start ps-0">
+                    <p class="hours text-muted m-0">&nbsp;6am-9pm<br>
+                      &nbsp;6am-6pm<br>
+                      &nbsp;9am-5pm<br>
+                      &nbsp;<span class="brand-gold">closed</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=5700%20Menchaca%20Rd%20Austin+(South%20Austin%20Gym)&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <div class="container-xxl">
-<footer class="row bg-black p-2 justify-content-end">
-    <div class="col-3">
-      <h6 class="text-muted">south austin gym</h6>
-      <ul class="nav flex-column">
-        <li class="nav-item mb-0"><a href="#" class="text-muted footer-link p-0 ">Our Story</a></li>
-        <li class="nav-item mb-0"><a href="#" class="footer-link p-0 text-muted">FAQ's</a></li>
-        <li class="nav-item mb-0"><a href="#" class="footer-link p-0 text-muted">Links</a></li>
-      </ul>
-        
-    </div>
+    <footer class="row bg-black p-2 justify-content-end">
+      <div class="col-3">
+        <h6 class="text-muted">south austin gym</h6>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-0"><a href="#" class="text-muted footer-link p-0 ">Our Story</a></li>
+          <li class="nav-item mb-0"><a href="#" class="footer-link p-0 text-muted">FAQ's</a></li>
+          <li class="nav-item mb-0"><a href="#" class="footer-link p-0 text-muted">Links</a></li>
+        </ul>
 
-    <div class="col-3">
-      <h6 class="text-muted">Contact Us</h6>
-      <p class="text-muted">5700 Manchaca Rd #365<br>
-Austin, TX 78745</p>
+      </div>
+
+      <div class="col-3">
+        <h6 class="text-muted">Contact Us</h6>
+        <p class="text-muted">5700 Manchaca Rd #365<br>
+          Austin, TX 78745</p>
         <p class="text-muted">(512) 445-2348<br>
-info@southaustingym.com</p>
-    </div>
+          info@southaustingym.com</p>
+      </div>
 
-    
-    <div class="col-6 text-end">
-      <a href="/" class="mb-3 link-dark text-decoration-none">
-        <img src="img/southAustinGymLogo.svg" alt="South Austin Gym Logo"  width="200">
-      </a>
-      
-    </div>
-<div class="col text-center justify-content-center">
-    
-    <p class="m-3"><a class="pe-1" href="#"><i class="fa fa-facebook-square text-muted footer-icon"></i></a>
-        <a class="pe-1" href="#"><i class="fa fa-instagram text-muted footer-icon "></i></a>
-    <a href="#"><i class="fa fa-youtube-square text-muted footer-icon"></i></a></p>
-    <p><a href="#" class="text-muted">Privacty Policy |</a> 
-        <a href="#" class="text-muted">Terms of Service |</a>
-        <a href="#" class="text-muted">Site Map</a>
-    
-    </p>
-<p class="text-muted">© 2022 Sean Showalter</p>
-    </div>
-    
-  </footer>
-</div>
-    
-  </body>
+
+      <div class="col-6 text-end">
+        <a href="/" class="mb-3 link-dark text-decoration-none">
+          <img src="img/southAustinGymLogo.svg" alt="South Austin Gym Logo" width="200">
+        </a>
+
+      </div>
+      <div class="col text-center justify-content-center">
+
+        <p class="m-3"><a class="pe-1" href="#"><i class="fa fa-facebook-square text-muted footer-icon"></i></a>
+          <a class="pe-1" href="#"><i class="fa fa-instagram text-muted footer-icon "></i></a>
+          <a href="#"><i class="fa fa-youtube-square text-muted footer-icon"></i></a>
+        </p>
+        <p><a href="#" class="text-muted">Privacty Policy |</a>
+          <a href="#" class="text-muted">Terms of Service |</a>
+          <a href="#" class="text-muted">Site Map</a>
+
+        </p>
+        <p class="text-muted">© 2022 Sean Showalter</p>
+      </div>
+
+    </footer>
+  </div>
+
+</body>
+
 </html>
