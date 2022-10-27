@@ -19,14 +19,16 @@
 body {
   font-family: var(--site-font-two);
   padding-top: 70px;
-  background-color: #000;
+  background-color: pink;
 }
 
+/*
 p,
 ul {
   font-size: 1.25rem;
   color: var(--brand-color-white);
 }
+*/
 
 h1,
 h2,
@@ -105,11 +107,16 @@ em {
 }
 
 .btn-primary {
-  background-color: var(--cta-color);
+  background-color: var(--brand-color-blue);
 }
 
 .btn-secondary {
-  background-color: var(--brand-color-blue);
+  /*background-color: var(--brand-color-blue);*/
+}
+
+.btn-outline-info {
+  color: var(--brand-color-gold);
+  border-color: var(--brand-color-gold);
 }
 
 .btn-info {
@@ -118,7 +125,7 @@ em {
 
 .btn-outline-primary {
   background-color: transparent;
-  color: var(--brand-color-white);
+  /*color: var(--brand-color-white);*/
 }
 
 
@@ -169,15 +176,19 @@ em {
   background-position: center;
   min-height: 100vh;
   position: relative;
-  color: #fff;
+} 
+
+
+.text-shadow {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, .6);
 }
+
 
 .color-overlay {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 255, .2);
+  background-color: rgba(105, 0, 0, 0.7);
 }
 
 
@@ -193,73 +204,46 @@ em {
 
 
 
-#hero h2 {
-  text-shadow: 1px 1px #000;
+#intro {
+  background-color:var(--brand-color-white);
+background-image: url("../img/whiteWall.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
+  } 
+
+
+#programs {
+  background-color: var(--brand-color-red);
+  background-image: url("../img/redWall.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+    color: #fff;
 }
 
-#hero p {
-  /* Added text shadow */
-  text-shadow: 1px 1px rgba(0, 0, 0, .5);
-}
-
-#main {
-  background-color: #C65062;
-}
-
-#welcome {
-  min-height: 100vh;
-  background-color: #000;
-}
-
-.welcome-bg-img {
-  min-height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("../img/chris-kendall-sJ6az6-T1u8-unsplash.jpg");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.welcome-color-overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, .75);
-}
-
-#welcome h1 {
-  font-size: 145px;
-}
-
-
-
-#welcome h3 {
-  font-size: 33px;
-}
-
-#welcome h4 {
-  font-size: 34px;
+#additional-offerings {
+  background-image: url("../img/goldBg.png");
+    background-size: cover;
+    background-position: center;
 }
 
 #trailer {
-  height: clamp(100px, 100vh, 1200px);
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.9)), url("../../img/david-guliciuc-o2zrjlM5s5o-unsplash.jpg");
-  background-position: center center;
-  background-size: cover;
-  padding-top: 100px;
+  background-color: var(--brand-color-black);
+  background-image: url("../img/wall-2.png");
+    background-size: cover;
+    background-position: center;
 }
 
-
-#personal-message {
-  /*height: clamp(100px, 100vh, 1200px);*/
-  background-image: url("../img/randyBlueBg.jpg");
-  background-position: top left;
-  background-size: cover;
-  padding-top: 100px;
-}
 
 #testimonials {
-  background-color: var(--brand-color-white);
-
+  background-color: var(--brand-color-blue);
+  background-image: url("../img/blue-bg.png");
+  background-size: cover;
+  background-position: center;
 
 }
 
@@ -278,9 +262,9 @@ em {
 
 #contact {
   background-color: var(--brand-color-white);
-  font-family: var(--site-font-one);
-  padding-top: 100px;
+  /*font-family: var(--site-font-one);*/
 }
+
 
 .hours {
   font-size: 1em;
@@ -288,7 +272,7 @@ em {
 
 .contact-info {
   color: #427AA1;
-  font-family: 'Bebas Neue', 'Impact', sans-serif;
+  /*font-family: 'Bebas Neue', 'Impact', sans-serif;*/
   font-size: 1em;
 }
 
@@ -303,6 +287,10 @@ em {
 
 .form-control {
   font-size: .75rem;
+}
+
+footer {
+  background-color: #000;
 }
 
 .footer-icon {
@@ -398,27 +386,6 @@ li.about {
 }
 
 
-/* Hero Images */
-
-/* Home */
-
-/*
-@media (max-width: 580px) {
-    
-    .about-img {
-    
-        background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/heroImg/heroImagesmobileAbout.jpg");
-    }
-    
-}
-
-@media (min-width: 581px) and (max-width: 1024px) {
-    .about-img {
-    
-        background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../img/heroImg/heroImagestabletAbout.jpg");
-    }
-}
-*/
 
 
 /* Media Queries */
@@ -461,16 +428,14 @@ li.about {
     h2 {
       font-size: 2.441rem;
     }
+
+   
   }
-
-}
-
 
 
 @media (max-width: 576px) {
   .masthead {
     min-height: 30vh;
   }
-
  
 }
