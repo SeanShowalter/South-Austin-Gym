@@ -75,7 +75,11 @@ em {
 }
 
 /* || Typography */
-
+.card-text {
+  font-family: var(--site-font-two);
+  line-height: 1.5em;
+  
+}
 /* || Brand Colors */
 
 .brand-gold {
@@ -241,6 +245,7 @@ background-image: url("../img/whiteWall.png");
   background-image: url("../img/blue-bg.png");
   background-size: cover;
   background-position: center;
+  padding: 80px 0 80px 0;
 
 }
 
